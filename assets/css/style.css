@@ -26,15 +26,7 @@ footer {
   width:200px;
   height: auto;
 }
-/* .footerA{
-  width: 90px;
-  float: left;
-  height: 50px;
-  padding-bottom: 2px;
-  padding-left: 40px;
-  margin-left: 40px;
-} */
-.footerb{
+b{
   background-image: url(https://media1.giphy.com/media/xTiTnkZoCSqp3Dn6yk/giphy.gif);
   background-position: center;
   background-blend-mode: color;
@@ -51,4 +43,11 @@ footer {
   font-size: 30px;
   font-weight: 800;
   
+}
+.portcenter{
+  text-align: center;
+  justify-content: space-evenly;
+}
+.cb{
+  margin-top: 50px;
 }
