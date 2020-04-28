@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # hw2
 # Unit 08 Project 1 Homework: Professional Materials
 
@@ -109,3 +110,6 @@ Update your LinkedIn Profile with a strong bio statement, a professional photo, 
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+=======
+Portfolio https://superdupercjz.github.io/Portfolio-Project/
+>>>>>>> 736f535889a6b3132a8c56b5c3a2102715256805
