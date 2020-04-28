@@ -1,3 +1,9 @@
+body{
+    background-image: url(https://media1.giphy.com/media/xTiTnkZoCSqp3Dn6yk/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 footer {
     padding:20px 0 20px;
    
@@ -8,4 +14,41 @@ footer {
     width: 100%;
     min-height: 74px;
     margin: 50px auto 10px;
+}
+.link{
+  float: right;
+  margin-right: 25px;
+  margin-top: 27px;
+}
+.githublogo{
+  padding-left: 30px;
+  margin-bottom: 20px;
+  width:200px;
+  height: auto;
+}
+/* .footerA{
+  width: 90px;
+  float: left;
+  height: 50px;
+  padding-bottom: 2px;
+  padding-left: 40px;
+  margin-left: 40px;
+} */
+.footerb{
+  background-image: url(https://media1.giphy.com/media/xTiTnkZoCSqp3Dn6yk/giphy.gif);
+  background-position: center;
+  background-blend-mode: color;
+  background-color: rgb(79, 85, 84);
+}
+.topb{
+  background-image: url(https://media1.giphy.com/media/xTiTnkZoCSqp3Dn6yk/giphy.gif);
+  background-position: center;
+  background-blend-mode: color;
+  background-color: rgb(60, 64, 65);
+}
+.boldtext{
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+  
 }
