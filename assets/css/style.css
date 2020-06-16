@@ -1,8 +1,11 @@
 body{
-    background-color: rgb(190, 186, 186);
+    background-color: rgb(255, 254, 197);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.footerA{
+  height: 200px;
 }
 .footer {
     padding:20px 0 20px;
@@ -15,41 +18,40 @@ body{
     min-height: 74px;
     margin: 50px auto 10px;
 }
-.linkedin{
-  color:black;
-  display: flex;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 700;
- 
+.zoom:hover{
+  transform: scale(1.2);
 }
-.linkedin:hover{
-  color:black;
-  text-decoration: none;
+.nav-link{
+  color:white !important;
+}
+.nav-link:hover{
+  color:rgb(0, 58, 250) !important;
+  transform: scale(.8);
+}
+.githublinkedinnav{
+  color:black !important;
+  padding-left: 15px !important;
+  }
+.githublinkedinnav2{
+color:black !important;
+padding-left: 5px !important;
 }
 .githublink{
 text-align: center;
  display: flex;
  list-style-type: none;
+ padding-left:30px;
 }
-.githublogo{
-  text-align: center;
-  padding-left: 30px;
-  margin-bottom: 20px;
-  width:200px;
-  height: auto;
-}
-b{
-  background-image: url(https://media1.giphy.com/media/xTiTnkZoCSqp3Dn6yk/giphy.gif);
-  background-position: center;
-  background-blend-mode: color;
-  background-color: rgb(179, 179, 179);
+
+.nav-link2{
+  color:black;
+  padding-left:15px;
+  padding-top: 30px;
 }
 .topb{
-  background-image: url(https://media1.giphy.com/media/xTiTnkZoCSqp3Dn6yk/giphy.gif);
   background-position: center;
   background-blend-mode: color;
-  background-color: rgb(60, 64, 65);
+  background-color: rgb(44, 243, 18);
 }
 .boldtext{
   color: black;
