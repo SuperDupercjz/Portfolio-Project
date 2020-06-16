@@ -73,3 +73,25 @@ text-align: center;
 .boredercard{
   padding-left: 10px;
 }
+
+.recbackground{
+  background-color: white;
+
+}
+.titlerec{
+  color: black;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+}
+.recommendations{
+
+  text-align: center;
+  margin-top: 35px;
+  background-color:rgb(44, 243, 18);
+  padding: 20px;
+}
+.ribenrec{
+  height: 130px;
+  float: right;
+}
