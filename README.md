@@ -1,3 +1,3 @@
 
- https://www.cjruacho.com/ still updating!
+ https://www.cjruacho.com/
 
