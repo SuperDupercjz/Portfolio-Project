@@ -1,97 +1,198 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
 body{
-    background-color: rgb(255, 254, 197);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-color: rgb(249, 242, 255);
 }
-.footerA{
-  height: 200px;
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height: 10vh;
+font-family: 'Black Ops One', cursive;
+background-image: linear-gradient(to right, rgb(132, 52, 236), rgb(66, 34, 250 ));
+
+
 }
-.footer {
-    padding:20px 0 20px;
-   
-    border: solid black 2px;
-    text-align: center;
-    color: black;
-    font-size: 55px;
-    width: 100%;
-    min-height: 74px;
-    margin: 50px auto 10px;
+.logo{
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 900;
+  font-size:50px !important;
+  text-shadow: 4px 1px 4px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 0);
 }
-.zoom:hover{
-  transform: scale(1.2);
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width:40%;
+  text-shadow: 4px 1px 4px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 0);
+
 }
-.nav-link{
-  color:white !important;
+.nav-links li{
+  list-style: none;
 }
-.nav-link:hover{
-  color:rgb(0, 58, 250) !important;
-  transform: scale(.8);
+.nav-links a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 15px;
 }
-.githublinkedinnav{
-  color:black !important;
-  padding-left: 15px !important;
-  }
-.githublinkedinnav2{
-color:black !important;
-padding-left: 5px !important;
-}
-.githublink{
-text-align: center;
- display: flex;
- list-style-type: none;
- padding-left:30px;
+.nav-links a :hover{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 15px;
 }
 
-.nav-link2{
-  color:black;
-  padding-left:15px;
-  padding-top: 30px;
+.burger{
+  display: none;
+  cursor: pointer;
 }
-.topb{
-  background-position: center;
-  background-blend-mode: color;
-  background-color: rgb(44, 243, 18);
+.burger div{
+width: 25px;
+height:4px;
+background-color: rgb(0, 0, 0);
+margin: 5px;
+transition: all 0.3 ease;
 }
-.boldtext{
-  color: black;
-  font-size: 30px;
-  font-weight: 800;
+@media screen and (max-width:1024px){
+    .navlinks{
+   width:55%;
+    }
+}
   
-}
-.portcenter{
-  text-align: center;
-  justify-content: space-evenly;
-}
-.cb{
-  margin-top: 50px;
-}
-.card{
-  padding-left:0px;
-  max-width: 1240px;
-}
-.boredercard{
-  padding-left: 10px;
-}
+@media screen and (max-width:768px){
+  body{
+    overflow-x: hidden;
+  }
+  .nav-links{
+  position:  absolute;
+  right:0;
+  height:92vh;
+  top:8vh;
+  background-image: linear-gradient(to top, rgb(132, 52, 236), rgb(66, 34, 250));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:40%;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+     }
+     .nav-links li{
+       opacity:0;
+     }
+     .burger{
+       display: block;
+     }
+    }
+    .nav-active{
+      transform: translateX(0%);
+    }
+    @keyframes navLinkFade{
+      from{
+        opacity: 0;
+transform: translateX(50px);
+      }
+      to{
+        opacity:1 ;
+        transform: translateX(0px);
+      }
+    }
+    .toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+    }
+    .toggle .line2{
+      opacity: 0;
+    }
+    .toggle .line3{
+      transform: rotate(45deg) translate(-5px,-6px);
+    }
+   
 
-.recbackground{
-  background-color: white;
-
+.Portfoliotitle{ 
+text-align: center;
+color: rgb(0, 0, 0);
+background-color: white;
+font-size: 40px;
+font-family: 'Black Ops One', cursive;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 20px;
+ 
 }
-.titlerec{
-  color: black;
-  font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 800;
-}
-.recommendations{
-
-  text-align: center;
-  margin-top: 35px;
-  background-color:rgb(44, 243, 18);
-  padding: 20px;
-}
-.ribenrec{
-  height: 130px;
-  float: right;
-}
+    .card{
+    float:left;
+    padding-top: 7px;
+    border:2px solid rgb(112, 111, 111);
+    background-color: white;
+    color: rgb(0, 0, 0) ;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px  rgb(66, 34, 250) ;
+    }
+    .card:hover{
+      float:left;
+      padding-top: 10px;
+      border:2px solid rgb(112, 111, 111);
+      background-color: white;
+      color: rgb(0, 0, 0);
+      border-radius: 10px;
+      box-shadow:5px 5px 16px  rgb(132, 52, 236);
+      transform: scale(1.1);
+      }
+    .portfolioShowings{
+      padding-top: 40px;
+      cursor: pointer;
+    }
+    .secoundRowPortfolio{
+      padding-top: 30px;
+    }
+    .clickdowns{
+      text-align: center;
+      background-color: white;
+      margin-top: 60px;
+      margin-bottom: 40px;
+      padding: 40px  50px;
+      font-family: 'Black Ops One', cursive;
+      border:2px solid rgb(132, 52, 236);
+     
+    }
+    .clickdowns:hover{
+      text-align: center;
+      background-color: white;
+      margin-top: 60px;
+      margin-bottom: 40px;
+      padding: 40px  50px;
+      font-family: 'Black Ops One', cursive;
+      border:2px solid rgb(132, 52, 236);
+      transform: scale(1.1);
+     
+    }
+    .doubleaarow{
+      text-align: center;
+    }
+    .doubleaarow:hover{
+      text-align: center;
+     
+      cursor: pointer;
+    }
+    .card-text{
+text-align: center;
+font-family: 'Black Ops One', cursive;
+font-size: 20px;
+color: black;
+text-decoration:none;
+    }
+    .card-text :hover{
+      text-align: center;
+      font-family: 'Black Ops One', cursive;
+      font-size: 20px;
+      color:rgb(132, 52, 236);
+      text-decoration:none !important;
+    }
+   
