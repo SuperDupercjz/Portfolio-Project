@@ -26,7 +26,8 @@ $(document).ready(function() {
     }
    
     navslide(); 
-    $('.myFunction').click(function(){
+  
+      $('.myFunction').click(function(){
         var x = document.getElementById("myDIV");
         if (x.style.display === "none") {
           x.style.display = "block";
@@ -34,8 +35,17 @@ $(document).ready(function() {
           x.style.display = "none";
         }
       });
+
       $('.myFunction2').click(function(){
         var x = document.getElementById("myDIV2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      });
+      $('.myFunction3').click(function(){
+        var x = document.getElementById("myDIV3");
         if (x.style.display === "none") {
           x.style.display = "block";
         } else {
