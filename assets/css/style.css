@@ -30,7 +30,13 @@ background-image: linear-gradient(to right, rgb(132, 52, 236), rgb(66, 34, 250 )
   justify-content: space-around;
   width:40%;
   text-shadow: 4px 1px 4px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 0);
-
+ 
+}
+.nav-links:hover{
+  display: flex;
+  justify-content: space-around;
+  width:40%;
+  text-shadow: 4px 1px 4px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 0);
 }
 .nav-links li{
   list-style: none;
@@ -42,12 +48,13 @@ background-image: linear-gradient(to right, rgb(132, 52, 236), rgb(66, 34, 250 )
   font-weight: 500;
   font-size: 15px;
 }
-.nav-links a :hover{
+.nav-links a:hover{
   color: rgb(255, 255, 255);
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: 500;
   font-size: 15px;
+
 }
 
 .burger{
@@ -133,7 +140,7 @@ margin-top: 20px;
     background-color: white;
     color: rgb(0, 0, 0) ;
     border-radius: 10px;
-    box-shadow: 3px 3px 15px  rgb(66, 34, 250) ;
+    box-shadow: 3px 3px 15px  rgb(73, 55, 179) ;
     }
     .card:hover{
       float:left;
@@ -142,8 +149,8 @@ margin-top: 20px;
       background-color: white;
       color: rgb(0, 0, 0);
       border-radius: 10px;
-      box-shadow:5px 5px 16px  rgb(132, 52, 236);
-      transform: scale(1.1);
+      box-shadow:6px 6px 16px  rgb(37, 80, 221);
+      transform: scale(1);
       }
     .portfolioShowings{
       padding-top: 40px;
