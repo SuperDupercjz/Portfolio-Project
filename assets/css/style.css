@@ -177,7 +177,6 @@ margin-top: 20px;
       padding: 40px  50px;
       font-family: 'Black Ops One', cursive;
      
-      transform: scale(1.1);
      
     }
     .doubleaarow{
@@ -197,7 +196,7 @@ text-decoration:none;
     }
     .card-text :hover{
       text-align: center;
-      font-family: 'Black Ops One', cursive;
+     
       font-size: 20px;
       color:rgb(132, 52, 236);
       text-decoration:none !important;
@@ -205,5 +204,7 @@ text-decoration:none;
     .blackcontact{
 color: black;
     }
-  
+  .pfont{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
    
