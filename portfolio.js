@@ -1,3 +1,4 @@
+alert("Page is Under construction, updating mobile responsiveness and Javascript ")
 $(document).ready(function() {
 
     const navslide = () => {
